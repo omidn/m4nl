@@ -6,6 +6,7 @@ FILE_PATH = './clean_data.csv';
 TRAIN_TO_TEST_RATIO = 0.8
 TRAIN_FILE_NAME = './data/train.csv'
 TEST_FILE_NAME = './data/test.csv'
+CORR_FILE_NAME = './data/corr.png'
 
 data = pn.read_csv(FILE_PATH)
 
@@ -18,4 +19,4 @@ train.to_csv(TRAIN_FILE_NAME)
 test.to_csv(TEST_FILE_NAME)
 
 plt.matshow(data.corr(), cmap='Blues', interpolation='nearest')
-plt.show()
+plt.savefig(CORR_FILE_NAME)
