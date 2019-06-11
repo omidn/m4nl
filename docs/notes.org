@@ -1,0 +1,2 @@
+* alternative kernels
+https://scikit-learn.org/stable/modules/gaussian_process.html#gp-kernels
