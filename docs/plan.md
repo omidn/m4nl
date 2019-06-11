@@ -11,3 +11,4 @@
 - [x] 2019-07-11: dig into IPython and BPython
 - [ ] 2019-07-11: add noise in the GA model
 - [ ] 2019-07-11: train a primal SVM model
+- [ ] 2019-07-11: what is MCMC sampling.
